@@ -1,0 +1,10 @@
+stages:
+    - test
+
+lint:
+    image: esci/pylinter:0.1-py38
+    stage: test
+    script:
+        - black . --check
+        - find -name \*.py | xargs pylint
+        - find -name \*.py | xargs pycodestyle
