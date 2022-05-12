@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 
+""" Test program to test CI env """
+
 
 def print_some_info():
-    str = "a" + "b" + "c"
-    print(str)
+    """ print some info  """
+    info = "a" + "b" + "c"
+    print(info)
 
 
 def main():
