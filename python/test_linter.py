@@ -4,7 +4,7 @@
 
 
 def print_some_info():
-    """ print some info  """
+    """print some info"""
     info = "a" + "b" + "c"
     print(info)
 
