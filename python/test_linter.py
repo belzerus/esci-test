@@ -16,3 +16,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    do_something_linter_hates=1
